@@ -1,15 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Calculator</title>
-</head>
-<body>
- 
-
-
-
-</body>
+  </head>
+  <body>
+    <form name="calculator">
+      <div id="add">
+        <h1>Add Two Numbers</h1>
+        <input name="num1" type="number" placeholder="first number" />
+        <input name="num2" type="number" placeholder="second number" />
+        <button type ='submit'>Add</button>
+        <h2 id ="addition">Result:</h2>
+        <button id ="resetAddition" type="reset">reset</button>
+      </div>
+      <div id="subtract">
+        <h1>Subtract Two Numbers</h1>
+        <input name="minus1" type="number" placeholder="first number" />
+        <input name="minus2" type="number" placeholder="second number" />
+        <button type = 'submit'>Subtract</button>
+        <h2 id="subtraction">Result:</h2>
+        <button id ="resetSubtraction" type="reset">reset</button>
+      </div>
+      <div id="multiply">
+        <h1>Multiply Two Numbers</h1>
+        <input name="times1" type="number" placeholder="first number" />
+        <input name="times2" type="number" placeholder="second number" />
+        <button type = 'submit'>Multiply</button>
+        <h2 id= "multiplication">Result:</h2>
+        <button id="resetMultiplication" type="reset">reset</button>
+      </div>
+    </form>
+    <script src="app.js"></script>
+  </body>
 </html>
